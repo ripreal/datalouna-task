@@ -1,0 +1,73 @@
+# compiled output
+/dist
+/node_modules
+/public
+
+/standalone/binance/upload/dist
+/standalone/binance/upload/node_modules
+/standalone/binance/upload_ws/dist
+/standalone/binance/upload_ws/node_modules
+/standalone/binance/delete_deprecated_klines/dist
+/standalone/binance/delete_deprecated_klines/node_modules
+
+/standalone/download_coin_img/dist
+/standalone/download_coin_img/node_modules
+
+/standalone/binance/upload_ws/dist
+/standalone/binance/upload_ws/node_modules
+
+/standalone/generate_candles/dist
+/standalone/generate_candles/node_modules
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Env
+.env
+/src/config/development.env
+/src/config/test.env
+/src/config/production.env
+/standalone/binance/upload/.env
+/standalone/binance/upload_ws/.env
+
+/standalone/binance/delete_deprecated_klines/.env
+
+/standalone/generate_candles/.env
+
+/standalone/download_coin_img/.env
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+node_modules
+dist
+app.env
+coins-scraper/icons
