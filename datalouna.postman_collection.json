@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "796e46c8-de1e-4383-860c-aaa67851cd01",
+		"name": "datalouna",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27883198",
+		"_collection_link": "https://universal-eclipse-719239.postman.co/workspace/test~2784e00c-181a-41d3-a403-612582d524b2/collection/27883198-796e46c8-de1e-4383-860c-aaa67851cd01?action=share&source=collection_link&creator=27883198"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3009/items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3009/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": 1,\r\n    \"itemId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3009/purchases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3009",
+					"path": [
+						"purchases"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
